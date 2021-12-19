@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+img {
+    -webkit-filter: brightness(0.6);
+    -moz-filter: brightness(0.6);
+    -o-filter: brightness(0.6);
+    -ms-filter: brightness(0.6);
+    filter: brightness(0.6);
+}
+
+.main-title {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.offer {
+    margin-top: 40px;
+}
+
+.right {
+    text-align: start;
+}
+
+footer {
+    margin: 30px auto;
+}
+
+.job-list {
+    display: none;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0 10px;
+}
+
+.jobtitle {
+    width: 80%;
+    margin: 10px auto;
+    justify-content: center;
+    display: inline-flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.job-header>ul>li {
+    display: inline-flex;
+    margin: 15px 20px;
+
+}
+
+.main-sec img {
+    width: 300px;
+    height: 300px;
+}
+
+.main-sec img:hover {
+    transition: 1s ease-in-out;
+    transform: rotate(360deg);
+}
+
+.options {
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.movies {
+    width: 80%;
+    margin: 0 auto;
+}
+
+hr {
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+.job-end {
+    width: 100%;
+}
+
+.job-info>ul {
+    text-align: start;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.review-part {
+    width: 100%;
+    display: inline-flex;
+}
+
+article {
+    width: 50%;
+    margin: auto 15px;
+}
+
+i {
+    margin: 10px auto;
+}
+
+.image2 {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
